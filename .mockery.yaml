@@ -1,0 +1,9 @@
+dir: "{{.InterfaceDir}}/_mock"
+outpkg: mockery
+mockname: "{{.InterfaceName}}"
+filename: "{{.InterfaceName}}.go"
+with-expecter: true
+packages:
+  github.com/bayu-aditya/ideagate/backend/client/controller/adapter/kubernetes:
+    interfaces:
+      IKubernetesAdapter:
