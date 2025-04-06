@@ -1,6 +1,6 @@
 package model
 
-import v1 "github.com/bayu-aditya/ideagate/backend/model/gen-go/client/controller/v1"
+import v1 "github.com/ideagate/model/gen-go/client/controller/v1"
 
 func ConvertPodStatus(status string) v1.PodStatus {
 	switch status {

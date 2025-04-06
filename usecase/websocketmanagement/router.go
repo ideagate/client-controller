@@ -3,9 +3,9 @@ package websocketmanagement
 import (
 	"context"
 
-	"github.com/bayu-aditya/ideagate/backend/client/controller/model"
-	"github.com/bayu-aditya/ideagate/backend/client/controller/usecase/workermanagement"
-	v1 "github.com/bayu-aditya/ideagate/backend/model/gen-go/client/controller/v1"
+	"github.com/ideagate/client-controller/model"
+	"github.com/ideagate/client-controller/usecase/workermanagement"
+	v1 "github.com/ideagate/model/gen-go/client/controller/v1"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

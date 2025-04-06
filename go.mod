@@ -1,11 +1,11 @@
-module github.com/bayu-aditya/ideagate/backend/client/controller
+module github.com/ideagate/client-controller
 
 go 1.23.0
 
 require (
-	github.com/bayu-aditya/ideagate/backend/core v0.0.0-20241227065414-1ceeb27ac183
-	github.com/bayu-aditya/ideagate/backend/model v0.0.0-20241227093649-429475df2a4c
 	github.com/gorilla/websocket v1.5.3
+	github.com/ideagate/core v0.0.0-20250405234934-b97c52ec982f
+	github.com/ideagate/model/gen-go v0.0.0-20250405233858-080667362b54
 	google.golang.org/protobuf v1.36.1
 	k8s.io/api v0.32.0
 	k8s.io/apimachinery v0.32.0

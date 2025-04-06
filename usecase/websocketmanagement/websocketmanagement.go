@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	entitywebsocket "github.com/bayu-aditya/ideagate/backend/core/model/entity/websocket"
 	"github.com/gorilla/websocket"
+	entitywebsocket "github.com/ideagate/core/model/entity/websocket"
 )
 
 type IWebsocketManagementUsecase interface {

@@ -8,11 +8,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/bayu-aditya/ideagate/backend/client/controller/adapter/kubernetes"
-	usecasewebsocketmanagement "github.com/bayu-aditya/ideagate/backend/client/controller/usecase/websocketmanagement"
-	"github.com/bayu-aditya/ideagate/backend/client/controller/usecase/workermanagement"
-	"github.com/bayu-aditya/ideagate/backend/core/utils/log"
 	"github.com/gorilla/websocket"
+	"github.com/ideagate/client-controller/adapter/kubernetes"
+	usecasewebsocketmanagement "github.com/ideagate/client-controller/usecase/websocketmanagement"
+	"github.com/ideagate/client-controller/usecase/workermanagement"
+	"github.com/ideagate/core/utils/log"
 )
 
 func NewWebsocketClient() {
